@@ -1,0 +1,64 @@
+.detail {
+  background-color: #ccc;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.logo {
+  text-shadow: -0.75px 1.5px #000;
+  color: rgb(0, 0, 152);
+  margin-block: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+}
+
+.title {
+    color: rgb(0, 0, 152);
+    font-size: 2rem;
+    padding-inline: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topText {
+    margin-block: 10px;
+    font-size: 30px;
+}
+
+.price {
+    text-shadow: -0.9px 2px #000;
+    font-weight: 900;
+    font-size: 35px;
+    margin-block: 30px;
+}
+
+small {
+    color: #555;
+    font-size: 1rem;
+}
+
+button {
+    background-color: rgb(69, 60, 139);
+    border: 0;
+    padding: 1rem 3rem;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover,
+button:active {
+    transform: scale(95%);
+    background-color: rgb(54, 44, 131);
+}
+
+@media (min-width: 480px) {
+    .detail {
+      padding: 50px;
+    }
+  }

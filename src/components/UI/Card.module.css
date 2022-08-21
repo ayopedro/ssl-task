@@ -1,0 +1,81 @@
+.card {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  margin-block: 20px;
+  /* background-color: white; */
+}
+
+.img {
+  height: 200px;
+  border-radius: 20px;
+  background-image: url(../../assets/people.jpeg);
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(69, 60, 139);
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.content {
+    text-align: center;
+    margin: 20px;
+}
+
+.heading {
+    font-weight: 400;
+    margin-block: 10px;
+    font-size: 2rem;
+}
+
+.pricing {
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.pricing span {
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        align-items: center;
+    }
+
+    .badge {
+        padding: 0.5rem 2rem;
+        font-weight: bold;
+        font-size: 16px;
+        right: 30px;
+    }
+
+    .content {
+        text-align: left;
+    }
+
+    .heading {
+        font-size: 1.8rem;
+        font-weight: 900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .message {
+        font-size: 0.9rem;
+    }
+}
